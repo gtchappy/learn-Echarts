@@ -1,4 +1,8 @@
 /node_modules/
 /dist/
 /.cache/
+<<<<<<< HEAD
 /.idea/
+=======
+/.idea/
+>>>>>>> 0bdb67a3c3c9b8693b4946acab4473d84e5e930f
