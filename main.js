@@ -31,6 +31,7 @@ let values = [createValue(), createValue(), createValue(), createValue(), create
 myChart.setOption({
     baseOption:{
         title: {
+            show:true,
             text: 'ECharts 入门示例'
         },
         tooltip: {
@@ -40,6 +41,7 @@ myChart.setOption({
             data: ['销量']
         },
         xAxis: {
+            type:'category',
             data: xData
         },
         yAxis: {
@@ -51,7 +53,6 @@ myChart.setOption({
             },
             itemStyle: {
                 color: "rgb(26,115,231)",
-                borderWidth: 1110,
             },
             name: '销量',
             type: 'line',
@@ -66,6 +67,9 @@ myChart.setOption({
             series: [{
                 lineStyle: {
                     color: 'red'
+                },
+                itemStyle:{
+                    borderWidth:9999999999999999
                 }
             }]
         }
